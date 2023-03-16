@@ -13,3 +13,11 @@
         @apply cursor-pointer;
     }
 }
+
+#light{
+    background-color:white;
+}
+
+#dark{
+    background-color: black;
+}
