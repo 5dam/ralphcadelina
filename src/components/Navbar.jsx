@@ -103,19 +103,18 @@ const Navbar = () => {
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077B5]'>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                        href="https://www.linkedin.com/in/ralphcadelina/" target="_blank">Linkedin <FaLinkedin size={30} /></a>
+                        href="https://www.linkedin.com/in/ralphcadelina/" target="_blank" rel='noreferrer'>Linkedin <FaLinkedin size={30} /></a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                        href="https://github.com/5dam" target="_blank">Github <FaGithub size={30} /></a>
+                        href="https://github.com/5dam" target="_blank" rel='noreferrer'>Github <FaGithub size={30} /></a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                    <a className='flex justify-between items-center w-full text-gray-300'
-                        href="/">Email <HiOutlineMail size={30} /></a>
+                    <div onClick={() => window.location = 'mailto:ralphcadelina5@gmail.com'} className='flex justify-between items-center w-full text-gray-300'>Email <HiOutlineMail size={30} /></div>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                        href="/">Resume <BsFillPersonLinesFill size={30} /></a>
+                        href="/documents/RalphCadelina.pdf" download="Ralph Cadelina Resume" target="_blank" rel='noreferrer'>Resume <BsFillPersonLinesFill size={30} /></a>
                 </li>
             </ul>
         </div>
@@ -125,3 +124,5 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+{/* <Button className="talk" onClick={() => window.location = 'mailto:ralphcadelina5@gmail.com'}>Hire me!</Button> */}
