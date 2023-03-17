@@ -44,12 +44,12 @@ const Navbar = () => {
        
 
         {/* hamburger */}
-        <div onClick={handleClick} className='dark:text-white md:hidden z-10'>
+        <div onClick={handleClick} className='dark:text-white dark:bg-black md:hidden z-10'>
             {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
         {/* mobile menu */}
-        <ul className={!nav ? 'hidden' : 'bg-[#8892b0] absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center'}>
+        <ul className={!nav ? 'hidden' : 'dark:bg-white bg-white absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center'}>
             <li className='py-6 text-4xl'>Home</li>
             <li className='py-6 text-4xl'>About</li>
             <li className='py-6 text-4xl'>Skills</li>
