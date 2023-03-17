@@ -103,11 +103,11 @@ const Navbar = () => {
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077B5]'>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                        href="/">Linkedin <FaLinkedin size={30} /></a>
+                        href="https://www.linkedin.com/in/ralphcadelina/" target="_blank">Linkedin <FaLinkedin size={30} /></a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                        href="/">Github <FaGithub size={30} /></a>
+                        href="https://github.com/5dam" target="_blank">Github <FaGithub size={30} /></a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                     <a className='flex justify-between items-center w-full text-gray-300'
