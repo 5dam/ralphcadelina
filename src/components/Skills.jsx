@@ -15,7 +15,7 @@ import Firebase from '../assets/firebase.png'
 
 const Skills = () => {
   return (
-    <div name='skills'>
+    <div name='skills' className='w-full h-screen'>
         {/* Container */}
         <div className='dark:text-white max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
