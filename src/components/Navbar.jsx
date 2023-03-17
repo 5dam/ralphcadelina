@@ -3,7 +3,7 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill, BsSunFill} from 'react-icons/bs'
 import {MdDarkMode} from 'react-icons/md'
-import Logo from "../assets/logo1.png"
+
 import {Link} from 'react-scroll'
 
 const Navbar = () => {
@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4">
         <div>
-            <img src={Logo} alt="Logo Img" style={{width: '50px'}} />
+            
         </div>  
 
         {/* menu */}
@@ -125,4 +125,3 @@ const Navbar = () => {
 
 export default Navbar
 
-{/* <Button className="talk" onClick={() => window.location = 'mailto:ralphcadelina5@gmail.com'}>Hire me!</Button> */}
