@@ -8,10 +8,6 @@ import Javascript from '../assets/javascript.png'
 import ReactJS from '../assets/react.png'
 import NodeJS from '../assets/node.png'
 import Github from '../assets/github.png'
-import Laravel from '../assets/laravel.svg'
-import PHP from '../assets/php.png'
-import MySQL from '../assets/mysql.png'
-import Firebase from '../assets/firebase.png'
 
 const Skills = () => {
   return (
@@ -55,27 +51,6 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
                     <img className='w-20 mx-auto' src={Github} alt="Github icon" />
                     <p>Github</p>
-                </div>
-            </div>
-            <div>
-                <p>Least experienced with back-end technologies</p>
-            </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
-                    <img className='w-20 mx-auto my-5' src={PHP} alt="PHP icon" />
-                    <p>PHP</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
-                    <img className='w-20 mx-auto' src={Laravel} alt="Laravel icon" />
-                    <p>Laravel</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
-                    <img className='w-20 mx-auto my-5' src={MySQL} alt="MySQL icon" />
-                    <p>MySQL</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
-                    <img className='w-20 mx-auto' src={Firebase} alt="Firebase icon" />
-                    <p>Firebase</p>
                 </div>
             </div>
         </div>
