@@ -15,7 +15,16 @@ const About = () => {
                         <p>Hi. I'm Ralph nice to meet you. Please take a look around.</p>
                     </div>
                     <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae commodi est nam voluptatem placeat explicabo vel ut minus ab. Impedit debitis iure amet nesciunt consequatur commodi, ducimus laudantium asperiores libero!</p>
+                        <p>With a bachelor’s degree holder in
+                        Information Technology with
+                        experience in the IT Industry particularly
+                        in Web Development. I venture in
+                        securing a position in a company where
+                        I can apply my experience that would
+                        best fit my qualifications. I aim to
+                        further enhance my values toward any
+                        responsibility that I will undertake.
+                        </p>
                     </div>
                 </div>
         </div>
