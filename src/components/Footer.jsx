@@ -18,7 +18,7 @@ const Footer = () => {
                 <li className='mt-4'>
                     <a href="https://github.com/5dam" target="_blank" class="mr-4 hover:underline md:mr-6" rel="noreferrer"><FaGithub size={20}/></a>
                 </li>
-                <li className='mt-4' onClick={() => window.location = 'mailto:ralphcadelina5@gmail.com'}>
+                <li onClick={() => window.location = 'mailto:ralphcadelina5@gmail.com'}>
                     <TfiEmail size={20} />
                 </li>
             </ul>
