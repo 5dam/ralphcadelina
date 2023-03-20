@@ -12,6 +12,7 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "react-switch": "^7.0.0",
+    "typed.js": "^2.0.132",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
