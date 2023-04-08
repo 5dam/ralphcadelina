@@ -7,7 +7,7 @@ import Tailwind from '../assets/tailwind.png'
 import Javascript from '../assets/javascript.png'
 import ReactJS from '../assets/react.png'
 import NodeJS from '../assets/node.png'
-import Github from '../assets/github.png'
+import MongoDB from '../assets/mongodb.png'
 
 const Skills = () => {
   return (
@@ -49,8 +49,8 @@ const Skills = () => {
                     <p>NodeJS</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] dark:shadow-white hover:scale-110 duration-500 py-4'>
-                    <img className='w-20 mx-auto' src={Github} alt="Github icon" />
-                    <p>Github</p>
+                    <img className='w-20 mx-auto' src={MongoDB} alt="Github icon" />
+                    <p>MongoDB</p>
                 </div>
             </div>
         </div>
