@@ -1,6 +1,7 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import Typed from 'typed.js'
+import { Link } from 'react-scroll'
 
 const Home = () => {
 
@@ -29,7 +30,9 @@ const Home = () => {
             <h2 className='text-4xl sm:text-7xl dark:text-white'>I'm a <span className='text-purple-600 font-bold' ref={el}></span></h2>
             <p className='dark:text-white py-4 max-w-[700px]'>A passionate Front-end React Developer based in Surigao City, Philippines.</p>
             <div>
-                <button className='dark:text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-purple-600 hover:border-purple-600 hover:text-white'>View Work<HiArrowNarrowRight className='ml-3' /></button>
+                <Link to="project" smooth={true} duration={500}>
+                  <button className='dark:text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-purple-600 hover:border-purple-600 hover:text-white'>View Work<HiArrowNarrowRight className='ml-3' /></button>
+                </Link>
             </div>
         </div>
     </div>
