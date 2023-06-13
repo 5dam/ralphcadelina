@@ -2,7 +2,7 @@ import React from 'react'
 import WorkImage1 from '../assets/works/mkdph-front.png'
 import WorkImage2 from '../assets/works/kodegomonitoringsystem-mp2.png'
 import WorkImage3 from '../assets/works/moveme-mp1.png'
-import WorkImage4 from '../assets/works/robinhood.png'
+import WorkImage4 from '../assets/works/smithfields.png'
 import WorkImage5 from '../assets/works/portfoliopic.png'
 
 const Project = () => {
