@@ -9,7 +9,7 @@ const Home = () => {
   
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Frontend Developer', 'React Developer', 'Fullstack Developer'],
+      strings: ['Frontend Developer', 'React Developer'],
       typeSpeed: 100,
       loop: true
     });
