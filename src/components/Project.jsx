@@ -27,7 +27,7 @@ const Project = () => {
             {/* Hover effects */}
             <div className="opacity-0 group-hover:opacity-100 p-6">
               <span className='text-xl font-bold text-white tracking-wider'>
-                 My Website Portfolio built using reactjs + tailwindcss 
+                An online investment web application that is intended for mobile users only. Built using MERN stack.
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://smithfieldfarms.online/" target="_blank" rel="noopener noreferrer">
