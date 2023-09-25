@@ -9,7 +9,7 @@ const Home = () => {
   
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Full-stack Developer', 'React Developer', 'Node.js Developer' ],
+      strings: ['Frontend Developer', 'Full-stack Developer' ],
       typeSpeed: 100,
       loop: true
     });
@@ -25,9 +25,9 @@ const Home = () => {
 
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-            <p className='font-bold dark:font-normal dark:text-white'>Hi, my name is </p>
+            <p className='font-bold dark:font-normal dark:text-white'>Hi, I'm </p>
             <h1 className='text-4xl sm:text-7xl dark:text-white'>Ralph Cadeliña</h1>
-            <h2 className='text-4xl sm:text-7xl dark:text-white'>I'm a <span className='text-purple-600 font-bold' ref={el}></span></h2>
+            <h2 className='text-4xl sm:text-7xl dark:text-white'>a <span className='text-purple-600 font-bold' ref={el}></span></h2>
             <p className='dark:text-white py-4 max-w-[700px]'>A passionate Front-end React Developer based in Surigao City, Philippines.</p>
             <div>
                 <Link to="project" smooth={true} duration={500}>
