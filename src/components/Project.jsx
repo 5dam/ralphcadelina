@@ -1,8 +1,6 @@
 import React from 'react'
 import WorkImage1 from '../assets/works/mkdph-front.png'
 import WorkImage5 from '../assets/works/portfoliopic.png'
-// import WorkImage2 from '../assets/works/moveme-mp1.png'
-import WorkImage3 from '../assets/works/smithfields.png'
 
 const Project = () => {
   return (
@@ -17,28 +15,7 @@ const Project = () => {
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
 
-        {/* Grid item */}
-
-          <div
-            style={{ backgroundImage: `url(${WorkImage3})` }}
-            className="shadow-lg shadow-[#040c16] dark:shadow-white group container rounded-md 
-                      flex justify-center text-center items-center mx-auto content-div">
-            
-            {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 p-6">
-              <span className='text-xl font-bold text-white tracking-wider'>
-                An online investment web application that is intended for mobile users only. Built using MERN stack.
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="https://smithfieldfarms.online/" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:scale-110 dark:text-black'>Demo</button>
-                </a>
-                <a href="https://github.com/5dam/robinhoodx" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:scale-110 dark:text-black'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
+        {/* Grid item */}      
 
           <div
             style={{ backgroundImage: `url(${WorkImage5})` }}
