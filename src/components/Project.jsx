@@ -2,6 +2,7 @@ import React from 'react'
 import WorkImage1 from '../assets/works/mkdph-front.png'
 import WorkImage5 from '../assets/works/portfoliopic.png'
 import spacebase from '../assets/works/spacebase.png'
+import epa from '../assets/works/EPA.png'
 
 const Project = () => {
   return (
@@ -16,7 +17,28 @@ const Project = () => {
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
 
-        {/* Grid item */}      
+        {/* Grid item */}  
+
+          <div
+            style={{ backgroundImage: `url(${epa})` }}
+            className="shadow-lg shadow-[#040c16] dark:shadow-white group container rounded-md 
+                      flex justify-center text-center items-center mx-auto content-div">
+            
+            {/* Hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 p-6">
+              <span className='text-xl font-bold text-white tracking-wider'>
+                  EPA is a e-commerce website built using MERN stack.
+              </span>
+              <div className='pt-8 text-center'>
+                <a href="https://epabusiness.com/login" target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:scale-110 dark:text-black'>Demo</button>
+                </a>
+                <a href="https://github.com/markmon1919/epa" target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:scale-110 dark:text-black'>Code</button>
+                </a>
+              </div>
+            </div>
+          </div>    
 
         <div
             style={{ backgroundImage: `url(${spacebase})` }}
