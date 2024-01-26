@@ -1,7 +1,7 @@
 import React from 'react'
 import WorkImage1 from '../assets/works/mkdph-front.png'
 // import WorkImage5 from '../assets/works/portfoliopic.png'
-import spacebase from '../assets/works/spacebase.png'
+// import spacebase from '../assets/works/spacebase.png'
 import epa from '../assets/works/EPA.png'
 
 const Project = () => {
@@ -11,7 +11,7 @@ const Project = () => {
         
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-purple-600'>Projects</p>
-          <p className='py-6'>Check out some of my projects from my Fullstack Web Development Bootcamp in KodeGo</p>  
+          <p className='py-6'>Check out some of my projects.</p>  
         </div>
 
         {/* Container */}
@@ -40,12 +40,12 @@ const Project = () => {
             </div>
           </div>    
 
-        <div
+          {/* <div
             style={{ backgroundImage: `url(${spacebase})` }}
             className="shadow-lg shadow-[#040c16] dark:shadow-white group container rounded-md 
                       flex justify-center text-center items-center mx-auto content-div">
             
-            {/* Hover effects */}
+            
             <div className="opacity-0 group-hover:opacity-100 p-6">
               <span className='text-xl font-bold text-white tracking-wider'>
                   SpaceBase is an AI Tool built using react-tailwind powered by openai.
@@ -59,7 +59,7 @@ const Project = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
      
           <div
             style={{ backgroundImage: `url(${WorkImage1})` }}
