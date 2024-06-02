@@ -45,7 +45,7 @@ const Project = () => {
             {/* Hover effects */}
             <div className="opacity-0 group-hover:opacity-100 ">
               <span className='text-xl font-bold text-white tracking-wider'>
-                 A School Website built in Laravel. View code for reference
+                 School Website built using laravel. 
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://kokusai-demo-5v7e.vercel.app/index.html" target="_blank" rel="noopener noreferrer">
