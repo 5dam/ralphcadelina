@@ -28,7 +28,7 @@ const Home = () => {
             <p className='font-bold dark:font-normal dark:text-white'>Hi, I'm </p>
             <h1 className='text-4xl sm:text-7xl dark:text-white'>Ralph Cadeliña</h1>
             <h2 className='text-4xl sm:text-7xl dark:text-white'>a <span className='text-purple-600 font-bold' ref={el}></span></h2>
-            <p className='dark:text-white py-4 max-w-[700px]'>A passionate Front-end React Developer based in Surigao City, Philippines.</p>
+            <p className='dark:text-white py-4 max-w-[700px]'>A passionate Front-end Developer based in Surigao City, Philippines.</p>
             <div>
                 <Link to="project" smooth={true} duration={500}>
                   <button className='dark:text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-purple-600 hover:border-purple-600 hover:text-white'>View Work<HiArrowNarrowRight className='ml-3' /></button>

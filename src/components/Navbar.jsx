@@ -107,14 +107,14 @@ const Navbar = () => {
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                        href="https://github.com/5dam" target="_blank" rel='noreferrer'>Github <FaGithub size={30} /></a>
+                        href="https://github.com/ralphjasoncadelina" target="_blank" rel='noreferrer'>Github <FaGithub size={30} /></a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                    <div onClick={() => window.location = 'mailto:ralphcadelina5@gmail.com'} className='flex justify-between items-center w-full text-gray-300'>Email <HiOutlineMail size={30} /></div>
+                    <div onClick={() => window.location = 'mailto:ralphjasoncadelina@gmail.com'} className='flex justify-between items-center w-full text-gray-300'>Email <HiOutlineMail size={30} /></div>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                        href="/documents/RalphCadelina.pdf" download="Ralph Cadelina Resume" 
+                        href="/documents/Ralph Cadelina Resume.pdf" download="Ralph Cadelina Resume" 
                         target="_blank" rel='noreferrer'>Resume <BsFillPersonLinesFill size={30} /></a>
                 </li>
             </ul>

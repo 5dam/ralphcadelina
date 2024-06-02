@@ -1,7 +1,7 @@
 import React from 'react'
 import WorkImage1 from '../assets/works/mkdph-front.png'
-// import WorkImage5 from '../assets/works/portfoliopic.png'
-// import spacebase from '../assets/works/spacebase.png'
+import weatherapp from '../assets/works/weather-app.png'
+import quotegenerator from '../assets/works/quote-generator.png'
 import epa from '../assets/works/EPA.png'
 
 const Project = () => {
@@ -33,34 +33,10 @@ const Project = () => {
                 <a href="https://epabusiness.com/login" target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:scale-110 dark:text-black'>Demo</button>
                 </a>
-                <a href="https://github.com/markmon1919/epa" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:scale-110 dark:text-black'>Code</button>
-                </a>
               </div>
             </div>
           </div>    
-
-          {/* <div
-            style={{ backgroundImage: `url(${spacebase})` }}
-            className="shadow-lg shadow-[#040c16] dark:shadow-white group container rounded-md 
-                      flex justify-center text-center items-center mx-auto content-div">
-            
-            
-            <div className="opacity-0 group-hover:opacity-100 p-6">
-              <span className='text-xl font-bold text-white tracking-wider'>
-                  SpaceBase is an AI Tool built using react-tailwind powered by openai.
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="https://spacebase.vercel.app/" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:scale-110 dark:text-black'>Demo</button>
-                </a>
-                <a href="https://github.com/5dam/spacebase" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:scale-110 dark:text-black'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div> */}
-     
+ 
           <div
             style={{ backgroundImage: `url(${WorkImage1})` }}
             className="shadow-lg shadow-[#040c16] dark:shadow-white group container rounded-md 
@@ -75,33 +51,45 @@ const Project = () => {
                 <a href="https://kokusai-demo-5v7e.vercel.app/index.html" target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:scale-110 dark:text-black'>Demo</button>
                 </a>
-                <a href="https://github.com/tsujintsujin/KokusaiDaigaku" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:scale-110 dark:text-black'>Code</button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${weatherapp})` }}
+            className="shadow-lg shadow-[#040c16] dark:shadow-white group container rounded-md 
+                      flex justify-center text-center items-center mx-auto content-div">
+            
+            {/* Hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 ">
+              <span className='text-xl font-bold text-white tracking-wider'>
+                 Weather app. Real-time weather updates and forecasts.
+              </span>
+              <div className='pt-8 text-center'>
+                <a href="https://weather5dam.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:scale-110 dark:text-black'>Demo</button>
                 </a>
               </div>
             </div>
           </div>
 
-          {/* <div
-            style={{ backgroundImage: `url(${WorkImage2})` }}
+          <div
+            style={{ backgroundImage: `url(${quotegenerator})` }}
             className="shadow-lg shadow-[#040c16] dark:shadow-white group container rounded-md 
                       flex justify-center text-center items-center mx-auto content-div">
             
-            
+            {/* Hover effects */}
             <div className="opacity-0 group-hover:opacity-100 ">
               <span className='text-xl font-bold text-white tracking-wider'>
-                 First project made, built using bootstrap.
+                Random quotes using HTML, CSS & JavaScript.
               </span>
               <div className='pt-8 text-center'>
-                <a href="https://majorproject1-moveme.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://quote-generator5dam.netlify.app/" target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:scale-110 dark:text-black'>Demo</button>
-                </a>
-                <a href="https://github.com/5dam/majorproject1-moveme" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:scale-110 dark:text-black'>Code</button>
                 </a>
               </div>
             </div>
-          </div> */}
+          </div>
 
         </div>
       </div>

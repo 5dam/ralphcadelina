@@ -6,8 +6,12 @@ import Bootstrap from '../assets/bootstrap.png'
 import Tailwind from '../assets/tailwind.png'
 import Javascript from '../assets/javascript.png'
 import ReactJS from '../assets/react.png'
+import Redux from '../assets/redux.png'
+import Vuejs from '../assets/vuejs.png'
 import NodeJS from '../assets/node.png'
 import MongoDB from '../assets/mongodb.png'
+import Github from '../assets/github.png'
+import Git from '../assets/git.png'
 
 const Skills = () => {
   return (
@@ -29,6 +33,10 @@ const Skills = () => {
                     <p>CSS</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] dark:shadow-white hover:scale-110 duration-500 py-4'>
+                    <img className='w-20 mx-auto' src={Javascript} alt="JS icon" />
+                    <p>Javascript</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] dark:shadow-white hover:scale-110 duration-500 py-4'>
                     <img className='w-20 mx-auto' src={Bootstrap} alt="Bootstrap icon" />
                     <p>Bootstrap</p>
                 </div>
@@ -37,12 +45,16 @@ const Skills = () => {
                     <p>TailwindCSS</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] dark:shadow-white hover:scale-110 duration-500 py-4'>
-                    <img className='w-20 mx-auto' src={Javascript} alt="JS icon" />
-                    <p>Javascript</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] dark:shadow-white hover:scale-110 duration-500 py-4'>
                     <img className='w-20 mx-auto' src={ReactJS} alt="ReactJS icon" />
                     <p>ReactJS</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] dark:shadow-white hover:scale-110 duration-500 py-4'>
+                    <img className='w-20 mx-auto' src={Redux} alt="ReactJS icon" />
+                    <p>Redux</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] dark:shadow-white hover:scale-110 duration-500 py-4'>
+                    <img className='w-20 mx-auto' src={Vuejs} alt="NodeJS icon" />
+                    <p>VueJS</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] dark:shadow-white hover:scale-110 duration-500 py-4'>
                     <img className='w-20 mx-auto' src={NodeJS} alt="NodeJS icon" />
@@ -51,6 +63,14 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] dark:shadow-white hover:scale-110 duration-500 py-4'>
                     <img className='w-20 mx-auto' src={MongoDB} alt="Github icon" />
                     <p>MongoDB</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] dark:shadow-white hover:scale-110 duration-500 py-4'>
+                    <img className='w-20 mx-auto' src={Git} alt="Github icon" />
+                    <p>Git</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] dark:shadow-white hover:scale-110 duration-500 py-4'>
+                    <img className='w-20 mx-auto' src={Github} alt="Github icon" />
+                    <p>Github</p>
                 </div>
             </div>
         </div>

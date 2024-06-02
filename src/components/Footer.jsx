@@ -16,9 +16,9 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/ralphcadelina/" target="_blank" class="mr-4 hover:underline md:mr-6" rel="noreferrer"><FaLinkedin size={20}/></a>
                 </li>
                 <li className='mt-4'>
-                    <a href="https://github.com/5dam" target="_blank" class="mr-4 hover:underline md:mr-6" rel="noreferrer"><FaGithub size={20}/></a>
+                    <a href="https://github.com/ralphjasoncadelina" target="_blank" class="mr-4 hover:underline md:mr-6" rel="noreferrer"><FaGithub size={20}/></a>
                 </li>
-                <li onClick={() => window.location = 'mailto:ralphcadelina5@gmail.com'}>
+                <li onClick={() => window.location = 'mailto:ralphjasoncadelina@gmail.com'}>
                     <TfiEmail size={20} />
                 </li>
             </ul>
