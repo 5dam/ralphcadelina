@@ -3,6 +3,7 @@ import WorkImage1 from '../assets/works/mkdph-front.png'
 import weatherapp from '../assets/works/weather-app.png'
 import quotegenerator from '../assets/works/quote-generator.png'
 import epa from '../assets/works/EPA.png'
+import rt from '../assets/works/rt.png'
 
 const Project = () => {
   return (
@@ -37,6 +38,24 @@ const Project = () => {
             </div>
           </div>    
  
+          <div
+            style={{ backgroundImage: `url(${rt})` }}
+            className="shadow-lg shadow-[#040c16] dark:shadow-white group container rounded-md 
+                      flex justify-center text-center items-center mx-auto content-div">
+            
+            {/* Hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 ">
+              <span className='text-xl font-bold text-white tracking-wider'>
+                 A website in singapore about reliable maid agency.
+              </span>
+              <div className='pt-8 text-center'>
+                <a href="https://righthelpers.com" target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:scale-110 dark:text-black'>Demo</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div
             style={{ backgroundImage: `url(${WorkImage1})` }}
             className="shadow-lg shadow-[#040c16] dark:shadow-white group container rounded-md 
